@@ -1,7 +1,11 @@
 # Extended Kalman Filter Project
 Self-Driving Car Engineer Nanodegree Program
 
-In this project, I utilized a Extended Kalman Filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. 
+In this project, I utilized a Extended Kalman Filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. As you can see in the video, data from the LIDAR is presented in blue circles,  the red circles with the arrow pointing towards the direction of the observed angle represents data from the RADAR and estimation markers are green triangles. 
+
+
+[image1]: ./ezgif.com-video-to-gif.gif
+![image][image1]
 
 This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
 
