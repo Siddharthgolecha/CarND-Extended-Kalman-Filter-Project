@@ -1,6 +1,14 @@
 # Extended Kalman Filter Project
 Self-Driving Car Engineer Nanodegree Program
 
+
+Autonomous Vehicles need to rely on different sensors to sense their environment and estimate their state in their environment accurately. Autonomous Vehicles mostly rely on 3 important sensors, Camera, LIDAR and RADAR. While Cameras are mostly used to sense the environment and observe their surroundings, LIDARs and RADARs are mostly used to estimate the state of the vehicle and its surrounding objects in the environment which mainly include position, velocity and sometimes acceleration too.
+
+However these sensors are sometimes not extremely accurate and produce a lot of noise, which can lead to catastrophic events in the state of inaccuracies. Kalman Filters suppresses the noise produce by the sensors and provide really accurate result about the state of the vehicle. Kalman Filters uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more accurate than those based on a single measurement alone, by estimating a joint probability distribution over the variables for each timeframe.
+
+The algorithm works in a two-step process. In the prediction step, the Kalman filter produces estimates of the current state variables, along with their uncertainties. Once the outcome of the next measurement (necessarily corrupted with some amount of error, including random noise) is observed, these estimates are updated using a weighted average, with more weight being given to estimates with higher certainty. 
+
+
 In this project, I utilized a Extended Kalman Filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. As you can see in the video, data from the LIDAR is presented in blue circles,  the red circles with the arrow pointing towards the direction of the observed angle represents data from the RADAR and estimation markers are green triangles. 
 
 
